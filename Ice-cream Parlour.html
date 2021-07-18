@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7d495ef840.js" crossorigin="anonymous"></script>
+    <title>Ice-Cream Parlour</title>
+  </head>
+  <body>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      <section class="menu">
+        <article class="menu-text">
+          <div class="menu-text-center">
+            <h1>Forget art. Put your trust in ice cream.</h1>
+            <p>If life is a bowl of dark ice cream,
+              small moments we enjoyed are colorful
+              sprinkles all over it.</p>
+            <a href="">Menu</a>
+          </div>
+        </article>
+        <article class="menu-image"></article>
+      </section>
+    </header>
+    <div class="custom-shape-divider-bottom-1625147644">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+
+    <div class="content" style="height: 100vh">
+      <section class="content-item">
+        <h1>Menu Items</h1>
+        <p>Ice cream never asks silly questions.
+          Ice cream understands.</p>
+      </section>
+
+      <div id="myBtnContainer" class="hide-on-mobile-tablet">
+        <button class="btn active" onclick="filterSelection('all')"> Show All</button>
+        <button class="btn" onclick="filterSelection('strawberry')">Strawberry</button>
+        <button class="btn" onclick="filterSelection('vanilla')">Vanilla</button>
+        <button class="btn" onclick="filterSelection('fruits')"> Fruits</button>
+        <button class="btn" onclick="filterSelection('choco')">Choco</button>
+      </div>
+      <div class="container">
+        <div class="filterDiv fruits">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Fruits</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Fruits</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv fruits">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Fruits</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Fruits</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv strawberry">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Strawberry</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Strawberry</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv strawberry">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Strawberry</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Strawberry</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv strawberry">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Strawberry</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Strawberry</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv vanilla">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Vanilla</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Vanilla</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv choco">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Choco</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Choco</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+        <div class="filterDiv choco">
+          <div class="card">
+
+           <div class="card__side card__side--back">
+            <div class="card__cover">
+             <h4 class="card__heading">
+              <span class="card__heading-span">Choco</span>
+             </h4>
+            </div>
+            <div class="card__details">
+             <ul>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+               <li>Lorem ipsum dolor sit amet.</li>
+             </ul>
+            </div>
+           </div>
+
+           <div class="card__side card__side--front">
+            <div class="card__theme">
+             <div class="card__theme-box">
+              <p class="card__subject">Choco</p>
+              <p class="card__title"><img src="2.jpg" style="width:100%;"></p>
+             </div>
+            </div>
+           </div>
+
+         </div>
+        </div>
+      </div>
+    </div>
+    <script>
+
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+
+    filterSelection("all")
+    function filterSelection(c) {
+      var x, i;
+      x = document.getElementsByClassName("filterDiv");
+      if (c == "all") c = "";
+      for (i = 0; i < x.length; i++) {
+        removeClass(x[i], "show");
+        if (x[i].className.indexOf(c) > -1) addClass(x[i], "show");
+      }
+    }
+
+    function addClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+      }
+    }
+
+    function removeClass(element, name) {
+      var i, arr1, arr2;
+      arr1 = element.className.split(" ");
+      arr2 = name.split(" ");
+      for (i = 0; i < arr2.length; i++) {
+        while (arr1.indexOf(arr2[i]) > -1) {
+          arr1.splice(arr1.indexOf(arr2[i]), 1);
+        }
+      }
+      element.className = arr1.join(" ");
+    }
+
+    // Add active class to the current button (highlight it)
+    var btnContainer = document.getElementById("myBtnContainer");
+    var btns = btnContainer.getElementsByClassName("btn");
+    for (var i = 0; i < btns.length; i++) {
+      btns[i].addEventListener("click", function(){
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+      });
+    }
+    </script>
+  </body>
+</html>
